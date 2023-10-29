@@ -2,7 +2,7 @@ import axios from "axios";
 
 class Api {
     constructor(){
-        axios.defaults.baseURL="http://localhost:3000/api/v1"
+        axios.defaults.baseURL="https://unfuckgpt-98421f0f13ad.herokuapp.com/api/v1"
     }
 
     getReports = async () => {
